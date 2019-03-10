@@ -1,13 +1,13 @@
 const columnsTable = {
-    'idUser': {
-        title: 'idUser',
-        dataIndex: 'idUser',
-        key: 'idUser',
+    'id': {
+        title: 'id',
+        dataIndex: 'id',
+        key: 'id',
     },
-    'idLang': {
-        title: 'idLang',
-        dataIndex: 'idLang',
-        key: 'idLang',
+    'createdAt': {
+        title: 'createdAt',
+        dataIndex: 'createdAt',
+        key: 'createdAt',
     },
     'name': {
         title: 'name',
@@ -22,17 +22,17 @@ const columnsTable = {
 };
 
 const optionsCheckbox = [
-    { label: 'idUser', value: 'idUser', disabled: true },
-    { label: 'idLang', value: 'idLang' },
+    { label: 'id', value: 'id', disabled: true },
     { label: 'name', value: 'name' },
     { label: 'email', value: 'email' },
+    { label: 'createdAt', value: 'createdAt' },
 ];
 
 const fields = [
-    'idUser',
-    'idLang',
-    'name',
-    'email',
+  'id',
+  'name',
+  'email',
+  'createdAt',
 ];
 
 const getColumns = (fields) => {

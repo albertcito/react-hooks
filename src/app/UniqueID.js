@@ -3,15 +3,9 @@ import useUniqueID from 'use/useUniqueID';
 
 export default function UniqueID() {
   const { uniqueID, refreshUniqueID } = useUniqueID()
-
-  return (<div className="alignCenter bigFont">
-    <h1>
-        {uniqueID}
-    </h1>
-    <button
-      onClick={refreshUniqueID}
-      className="bigFont"
-    >
+  return (<div>
+    <h1>{uniqueID}</h1>
+    <button onClick={refreshUniqueID}>
       Reset
     </button>
   </div>);

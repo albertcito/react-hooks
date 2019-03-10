@@ -6,7 +6,7 @@ import TableUsers from 'components/TableUsers';
 export default function Users() {
   const { users } = useUsers(fields);
 
-  return (<div className="alignCenter bigFont">
+  return (<div>
     <h1>Users</h1>
     <TableUsers
         users={users}
@@ -14,3 +14,4 @@ export default function Users() {
     />
   </div>);
 }
+
