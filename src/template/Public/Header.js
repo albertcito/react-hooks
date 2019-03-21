@@ -9,16 +9,20 @@ const menu = [
     text: 'Basic'
   },
   {
-    url: '/uniqueid',
-    text: 'Unique ID'
-  },
-  {
     url: '/users',
     text: 'Users'
   },
   {
     url: '/usercolumns',
     text: 'User Columns'
+  },
+  {
+    url: '/effect',
+    text: 'Effects'
+  },
+  {
+    url: '/effectcleanup',
+    text: 'Effect Cleanup'
   },
 ];
 
@@ -37,7 +41,7 @@ export default function Header() {
         key="addMsg"
         onClick={() => addGlobalMsg('This is a randon msg: ' + Math.random())}
       >
-        Add Global Msg
+        Add
       </Menu.Item>
     </Menu>
   </div>);
