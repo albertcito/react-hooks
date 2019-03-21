@@ -9,7 +9,7 @@ export default function TableUsers({users, columns}) {
         <Table
             dataSource={users.data}
             columns={columns}
-            rowKey={(user) => user.idUser}
+            rowKey={(user) => user.id}
             pagination={false}
         />
     </Spin>);
