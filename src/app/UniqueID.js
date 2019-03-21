@@ -12,7 +12,7 @@ export default function UniqueID() {
       onClick={refreshUniqueID}
       className="bigFont"
     >
-      Reset
+      Refresh
     </button>
   </div>);
 }

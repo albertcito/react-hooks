@@ -4,7 +4,7 @@ import routes from 'routes';
 import useGlobalMessage from 'use/useGlobalMessage';
 import Public from './Public';
 
-export const PublicContext = createContext({})
+export const PublicContext = createContext({});
 
 export default function Template() {
   const {
@@ -13,7 +13,9 @@ export default function Template() {
     delGlobalMsg
   } = useGlobalMessage();
 
-  return (<PublicContext.Provider value={{globalMsg, addGlobalMsg, delGlobalMsg}}>
+  return (<PublicContext.Provider
+      value={{globalMsg, addGlobalMsg, delGlobalMsg}}
+    >
     <BrowserRouter>
       <Switch>
         <Routes />

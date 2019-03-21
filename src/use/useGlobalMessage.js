@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
 export default () => {
-  const defaultGlobalMgs = [];
+
   const [
     globalMsg,
     setGlobalMsg
-  ] = useState(defaultGlobalMgs);
+  ] = useState([]);
 
   const addGlobalMsg = (msg) => {
     setGlobalMsg([

@@ -1,4 +1,4 @@
-import { Basic, UniqueID, Users, UserColumns } from 'app';
+import { Basic, UniqueID, Users, UserColumns, Effect, EffectCleanup } from 'app';
 
 export default [
   {
@@ -16,5 +16,13 @@ export default [
   {
     Component: UserColumns,
     path: '/usercolumns',
+  },
+  {
+    Component: Effect,
+    path: '/effect',
+  },
+  {
+    Component: EffectCleanup,
+    path: '/effectcleanup',
   },
 ];
