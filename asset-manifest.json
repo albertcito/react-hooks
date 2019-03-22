@@ -1,15 +1,15 @@
 {
-  "main.css": "/albertcito/react-hooks/static/css/main.dfade10c.chunk.css",
-  "main.js": "/albertcito/react-hooks/static/js/main.005e7333.chunk.js",
-  "main.js.map": "/albertcito/react-hooks/static/js/main.005e7333.chunk.js.map",
-  "runtime~main.js": "/albertcito/react-hooks/static/js/runtime~main.d08db6ff.js",
-  "runtime~main.js.map": "/albertcito/react-hooks/static/js/runtime~main.d08db6ff.js.map",
-  "static/css/2.8534985c.chunk.css": "/albertcito/react-hooks/static/css/2.8534985c.chunk.css",
-  "static/js/2.00142dd3.chunk.js": "/albertcito/react-hooks/static/js/2.00142dd3.chunk.js",
-  "static/js/2.00142dd3.chunk.js.map": "/albertcito/react-hooks/static/js/2.00142dd3.chunk.js.map",
-  "index.html": "/albertcito/react-hooks/index.html",
-  "precache-manifest.a49d5c0b32379b3cc4c6a7b327e6a8b2.js": "/albertcito/react-hooks/precache-manifest.a49d5c0b32379b3cc4c6a7b327e6a8b2.js",
-  "service-worker.js": "/albertcito/react-hooks/service-worker.js",
-  "static/css/2.8534985c.chunk.css.map": "/albertcito/react-hooks/static/css/2.8534985c.chunk.css.map",
-  "static/css/main.dfade10c.chunk.css.map": "/albertcito/react-hooks/static/css/main.dfade10c.chunk.css.map"
+  "main.css": "/react-hooks/static/css/main.dfade10c.chunk.css",
+  "main.js": "/react-hooks/static/js/main.005e7333.chunk.js",
+  "main.js.map": "/react-hooks/static/js/main.005e7333.chunk.js.map",
+  "runtime~main.js": "/react-hooks/static/js/runtime~main.d8882185.js",
+  "runtime~main.js.map": "/react-hooks/static/js/runtime~main.d8882185.js.map",
+  "static/css/2.8534985c.chunk.css": "/react-hooks/static/css/2.8534985c.chunk.css",
+  "static/js/2.a2df5cb4.chunk.js": "/react-hooks/static/js/2.a2df5cb4.chunk.js",
+  "static/js/2.a2df5cb4.chunk.js.map": "/react-hooks/static/js/2.a2df5cb4.chunk.js.map",
+  "index.html": "/react-hooks/index.html",
+  "precache-manifest.c6b7402b64dfdbcc3b6f63d5a9e97bd5.js": "/react-hooks/precache-manifest.c6b7402b64dfdbcc3b6f63d5a9e97bd5.js",
+  "service-worker.js": "/react-hooks/service-worker.js",
+  "static/css/2.8534985c.chunk.css.map": "/react-hooks/static/css/2.8534985c.chunk.css.map",
+  "static/css/main.dfade10c.chunk.css.map": "/react-hooks/static/css/main.dfade10c.chunk.css.map"
 }

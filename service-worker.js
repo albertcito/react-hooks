@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/albertcito/react-hooks/precache-manifest.a49d5c0b32379b3cc4c6a7b327e6a8b2.js"
+  "/react-hooks/precache-manifest.c6b7402b64dfdbcc3b6f63d5a9e97bd5.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/albertcito/react-hooks/index.html", {
+workbox.routing.registerNavigationRoute("/react-hooks/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
