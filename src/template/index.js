@@ -1,5 +1,5 @@
 import React, { createContext } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import routes from 'routes';
 import useGlobalMessage from 'use/useGlobalMessage';
 import Public from './Public';
@@ -16,11 +16,11 @@ export default function Template() {
   return (<PublicContext.Provider
       value={{globalMsg, addGlobalMsg, delGlobalMsg}}
     >
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Routes />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   </PublicContext.Provider>);
 }
 
